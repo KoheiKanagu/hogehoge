@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    citrus (3.0.1)
+    toml-rb (0.1.6)
+      citrus (~> 3.0, > 3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  toml-rb
