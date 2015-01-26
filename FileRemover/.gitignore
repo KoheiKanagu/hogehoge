@@ -1,3 +1,5 @@
+preference.toml
+
 *.gem
 *.rbc
 /.config
