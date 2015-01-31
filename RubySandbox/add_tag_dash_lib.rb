@@ -1,5 +1,3 @@
-#dashのスニペットのsyntaxに応じて、titleの先頭にタグを付与
-
 require 'sqlite3'
 
 db = SQLite3::Database.new('library.dash')
