@@ -10,6 +10,8 @@ unless File.exist?(LIST_FILE)
 
   temp = <<-EOS
   # A sample newest_gitignore preference
+  # https://github.com/github/gitignore
+  #
   # Ruby.gitignore
   # Objective-C.gitignore
   EOS
