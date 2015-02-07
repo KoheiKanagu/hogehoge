@@ -1,0 +1,4 @@
+gitignoreList
+RubySandbox/.bundle
+RubySandbox/vendor
+gitignore_global
