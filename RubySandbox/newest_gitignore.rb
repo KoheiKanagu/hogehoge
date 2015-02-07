@@ -3,6 +3,9 @@ require 'net/http'
 LIST_FILE = 'gitignoreList'
 
 puts 'Hello!'
+puts '>> Push Return Key'
+
+return if gets.chomp.nil?
 
 unless File.exist?(LIST_FILE)
   puts '>> gitignoreList Not Found.'
