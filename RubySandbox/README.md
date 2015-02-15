@@ -12,7 +12,7 @@ https://github.com/github/gitignore
 `TwitterAPIKeys.toml`からkeyやtokenを読み込んで返す  
 もし`TwitterAPIKeys.toml`が無ければ新しく生成する
 
-##twitter_favo_getter
+##twitter_favo_image_getter
 指定したユーザのFavoriteを取得し、そこに掲載されている画像を収集する  
 API的に最大200favoまで  
 Parallelでマルチタスクにした場合、多すぎる(8以上？or未指定の時？)とバッファエラーになる？
