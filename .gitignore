@@ -2,3 +2,5 @@ gitignoreList
 RubySandbox/.bundle
 RubySandbox/vendor
 gitignore_global
+TwitterAPIKeys.toml
+RubySandbox/image
