@@ -18,3 +18,11 @@ keyやらtokenは https://apps.twitter.com/ からgenerate
 指定したユーザのFavoriteを取得し、そこに掲載されている画像を収集する  
 API的に最大200favoまで  
 Parallelでマルチタスクにした場合、多すぎる(8以上？or未指定の時？)とバッファエラーになる？
+
+##suddenly_death
+任意の文字列を入力すると
+
+ ＿人人人人人人＿  
+＞　突然の死　＜  
+￣Y^Y^Y^Y^Y￣  
+を生成するだけ
