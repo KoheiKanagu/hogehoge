@@ -5,3 +5,4 @@ source "https://rubygems.org"
 gem 'twitter'
 gem 'toml-rb', :require => 'toml'
 gem 'parallel'
+gem 'oauth'
