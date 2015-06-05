@@ -26,3 +26,11 @@ Parallelでマルチタスクにした場合、多すぎる(8以上？or未指�
 ＞　突然の死　＜  
 ￣Y^Y^Y^Y^Y￣  
 を生成するだけ
+
+
+##twitter_get_access_token_secret
+**アプリと連携**なURLを生成し、アクセストークンを生成できる
+
+
+##twitter_favo_image_getter_stream
+ふぁぼったツイートに含まれる画像をストリームに収集する
