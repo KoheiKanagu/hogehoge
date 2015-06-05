@@ -23,6 +23,18 @@ class APIkeys
     template
   end
 
+  def check_consumer
+    return false if load_consumer_key == ''
+    return false if load_consumer_secret == ''
+    true
+  end
+
+  def check_access
+    return false if load_access_token == ''
+    return false if load_access_token_secret == ''
+    true
+  end
+
   def check_keys
     return false if load_consumer_key == ''
     return false if load_consumer_secret == ''
