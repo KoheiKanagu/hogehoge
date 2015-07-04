@@ -9,7 +9,7 @@ Bundler.require
 
 def scan_image_urls(url)
   html = Net::HTTP.get(URI.parse(url))
-  array = html.scan(/<img src="(.*)".*(?:alt=|style=).*>/)
+  array = html.scan(/<img src="(.*)" alt.*width.*height.*>/)
   array
 end
 
